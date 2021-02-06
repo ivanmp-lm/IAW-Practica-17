@@ -36,13 +36,13 @@ services:
     ports: 
       - 80:80
     depends_on:
-      - "mysql"
+      - balanceador
     networks:
       - backend-network
       - frontend-network
     restart: always
     
-  lb:
+  balanceador:
     image: dockercloud/haproxy
     ports:
       - 80:80

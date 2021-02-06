@@ -42,7 +42,7 @@ Nótese el añadido al final, el argumento "scale" que permite lanzar más de un
 
 Acceder a la página tendrá el siguiente resultado:
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(44).png)
 
 Para que la base de datos funcione se ejecutará el siguiente script en PHPMyAdmin igual que en la práctica anterior:
 
@@ -66,11 +66,11 @@ GRANT ALL PRIVILEGES ON lamp_db.* TO 'lamp_user'@'%';
 
 Página con datos:
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(36).png)
 
 Si se accede a través del puerto 1936 se accederá a la página de estadísticas \(las credenciales son stats/stats\):
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](https://raw.githubusercontent.com/ivanmp-lm/IAW/master/.gitbook/assets/image%20(35).png)
 
 Tras actualizar unas cuantas veces, se puede observar que el balanceador realiza la rotación correctamente y todos los servicios de apache han recibido peticiones.
 

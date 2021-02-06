@@ -33,10 +33,10 @@ services:
     
   apache:
     build: ./apache
-    ports: 
-      - 80:80
     depends_on:
       - mysql
+    ports:
+      - 8080:80
     networks:
       - backend-network
       - frontend-network

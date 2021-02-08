@@ -6,8 +6,8 @@ description: >-
 
 # Balanceo de carga con HAProxy
 
-* **IP:** [3.236.103.246](http://3.236.103.246)
-* **ACCESO PHPMYADMIN:** [3.236.103.246:8080](http://3.236.103.246:8080)
+* **IP:** [3.237.31.10](http://3.237.31.10)
+* **ACCESO PHPMYADMIN:** [3.237.31.10:8080](http://3.237.31.10:8080)
 * **USUARIO PHPMYADMIN:** root
 * **CLAVE PHPMYADMIN:** root
 
